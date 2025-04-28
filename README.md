@@ -17,7 +17,7 @@ sudo systemctl start ssh
 Vérifier que SSH fonctionne :
 sudo systemctl status ssh
 
-3. Configurer le Firewall (UFW)
+## 3. Configurer le Firewall (UFW)
 Installer UFW si nécessaire :
 sudo apt install ufw
 
@@ -28,7 +28,7 @@ sudo ufw enable
 Vérifier le statut du firewall :
 sudo ufw status
 
-4. Installer et configurer Nginx
+## 4. Installer et configurer Nginx
 Installer Nginx :
 sudo apt install nginx
 
